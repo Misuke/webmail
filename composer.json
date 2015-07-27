@@ -1,0 +1,20 @@
+{
+    "name": "misuke/webmail",
+    "authors": [
+        {
+            "name": "Tung Pascal",
+            "email": "tung.pascal@etu.unice.fr"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "dev-master"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Kazan\\Mailer\\": "vendor/kazan/mailer/",
+            "Kazan\\Vocalizer\\": "vendor/kazan/Vocalizer/"
+        }
+    }
+}
